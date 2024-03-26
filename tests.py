@@ -35,6 +35,7 @@ def test_get_task():
         response_json = response.json()
         assert task_id == response_json['id']
 
+# Teste da atualização de uma tarefa específica
 def test_update_task():
     if tasks:
         task_id = tasks[0]
